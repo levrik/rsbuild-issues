@@ -14,7 +14,8 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx']
   },
   devServer: {
-    port: 3000
+    port: 3000,
+    allowedHosts: 'all'
   },
   optimization: {
     runtimeChunk: { name: 'runtime' }
